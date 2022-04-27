@@ -1,15 +1,6 @@
-## Micronaut 3.4.2 Documentation
+1. Run Application.java
+2. Observe:
 
-- [User Guide](https://docs.micronaut.io/3.4.2/guide/index.html)
-- [API Reference](https://docs.micronaut.io/3.4.2/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/3.4.2/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
----
-
-- [Shadow Gradle Plugin](https://plugins.gradle.org/plugin/com.github.johnrengelman.shadow)
-## Feature http-client documentation
-
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
-
-# provider-qualifier-named-bug-demo
+```
+No bean of type [jakarta.inject.Provider<example.micronaut.service.FooService>] exists for the given qualifier: @Named('foo') and @Foo
+```
